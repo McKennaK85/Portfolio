@@ -1,0 +1,241 @@
+
+/* === BODY === */
+
+/* .container {
+    padding: 5%;
+    margin: 0%;
+} */
+@media (min-width: 1200px){
+.container {
+    max-width: 90%;
+}
+}
+body {
+    margin: 0;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    font-family: 'Abril Fatface', cursive,'Poiret One', cursive !important;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 2;
+    color: darkgray;
+    text-align: left;
+    background-color: transparent;
+    letter-spacing: 6px;
+    height: 100%;
+}
+
+  h1 {
+    display: block;
+    text-align: center;
+    /* justify-content: space-between; */
+    font-size: 7em;
+    margin-block-start: 3em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: 500;
+    z-index: 3;
+    color: black;
+    font-family: 'Poiret One', cursive;
+}
+
+.lead {
+    font-size: 4em;
+    font-weight: lighter;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    margin-left: 18%;
+}
+
+.display-4 {
+    font-size: 5em;
+    font-weight: 400;
+    line-height: .3;
+    color: white;
+    font-family: 'Abril Fatface', cursive;
+    margin-left: 18%;
+}
+
+p {
+    font-weight: lighter;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    text-align: center; 
+    margin-top: 0;
+    margin-bottom: 0rem;
+}
+}
+.row {
+    margin-bottom: 0px;
+    margin-left: 10px;
+    margin-top: 0px;
+    padding: 20px;
+    align-items: center;
+  }
+
+/* =================================== */
+/* === HERO JUMBOTRON === */
+/* =================================== */
+
+.hero-image {
+    background-image: url(images/mckennaweb.png);
+    background-color: #afafaf;
+    background-position: left bottom;
+    /* background-position-x: -450px; */
+    /* background-position-y: -260px; */
+    background-repeat: no-repeat;
+    background-size: 675px;
+    min-height: 100vh;
+    /* position: relative; */
+  }
+
+/* ==================================== */
+/* === NAVBAR === */
+/* ==================================== */
+
+.navbar.transparent.navbar-inverse .navbar-inner {
+    background: rgba(0,0,0,0.4);
+    z-index: 3;
+  }
+  
+nav {
+    height: 15%;
+    width: cover;
+    padding-left: 25%;
+    padding-right: 50px;
+    z-index: 5;
+  }
+
+.navbar-brand {
+    display: inline-flex;
+    padding-top: .3rem;
+    padding-bottom: .3125rem;
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
+    font-size: 20px;
+    line-height: inherit;
+    white-space: nowrap;
+    z-index: 3;
+  }
+
+  .nav-link {
+      color: white;
+  }
+    
+a {
+    color: rgb(95, 97, 97);
+    text-decoration: none;
+    background-color: transparent;
+    text-align: center;
+    font-style: 500;
+    font-size: 23px;
+    -webkit-text-decoration-skip: objects;
+    font-family: 'Raleway', sans-serif;
+    z-index: 3;
+  }
+
+  .sr-only {
+    position: absolute;
+    margin: -1px 0 0 -1px;
+    padding: 0;
+    display: block;
+    width: 1px;
+    height: 1px;
+    font-size: 1px;
+    line-height: 1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    border: 0;
+    outline: 0;
+    z-index: 3;
+    }
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    z-index: 3;
+}
+
+.nav-link:focus, .nav-link:hover {
+    text-decoration: none;
+    text-decoration-line: none;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+    z-index: 3;
+}
+
+a:hover {
+    color: white;
+    text-decoration: underline;
+    text-shadow: 2px 2px black;
+    z-index: 3;
+}
+
+.ml-auto .ml-2 {
+    padding-right: 5rem;
+    z-index: 3;
+}
+
+/* === CARDS === */
+
+h2 {
+    /* font-family:'Poiret One', cursive; */
+    /* color: rgb(83, 83, 83);  */
+    line-height: inherit;
+    font-size: 3em;
+}
+
+h5 {
+    font-family: 'Raleway', sans-serif;
+    color: rgb(83, 83, 83); 
+    line-height: inherit;
+}
+
+
+img {
+    height: 75%;
+    width: 75%;
+}
+
+.item-content {
+    text-align: -webkit-left;
+    align-self: center;
+}
+
+.item-image {
+    text-align: center;
+    justify-items: center;
+}
+
+.content {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.container-fluid {
+    background-color: #f7f7f7;
+}
+
+/* ======================================= */
+/* === FOOTER === */
+/* ======================================= */
+
+.footer {
+    background-color: #afafaf;
+    height: 100 px;
+    color: white;
+    text-align: center;
+    padding: 0px 25px 0px 25px;
+    margin: 0px;
+    align-items: center;
+}
+
+/* .row {
+    margin-bottom: 0px;
+    margin-left: 10px;
+    margin-top: 0px;
+    padding: 20px;
+    align-items: center;
+  } */
